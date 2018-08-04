@@ -72,7 +72,7 @@ ITEM_PIPELINES = {
 IMAGES_STORE = "F:\img"
 
 IMAGES_MIN_HEIGHT = 300
-IMAGES_MIN_WIDTH = 500
+IMAGES_MIN_WIDTH = 501
 
 
 # Enable and configure the AutoThrottle extension (disabled by default)
