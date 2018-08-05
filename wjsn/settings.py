@@ -53,9 +53,9 @@ DEFAULT_REQUEST_HEADERS = {
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'wjsn.middlewares.WjsnDownloaderMiddleware': 543,
-#}
+DOWNLOADER_MIDDLEWARES = {
+    'wjsn.middlewares.WjsnDownloaderMiddleware': 543,
+}
 
 # Enable or disable extensions
 # See https://doc.scrapy.org/en/latest/topics/extensions.html
@@ -74,6 +74,8 @@ IMAGES_STORE = "F:\img"
 
 IMAGES_MIN_HEIGHT = 400
 IMAGES_MIN_WIDTH = 500
+
+
 
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -96,3 +98,4 @@ IMAGES_MIN_WIDTH = 500
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
