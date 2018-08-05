@@ -66,12 +66,13 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'wjsn.pipelines.WjsnPipeline': 300,
+    #'wjsn.pipelines.WjsnPipeline': 300,
+    'wjsn.mongoPipelines.mongoPipeline': 300,
 }
 
 IMAGES_STORE = "F:\img"
 
-IMAGES_MIN_HEIGHT = 300
+IMAGES_MIN_HEIGHT = 400
 IMAGES_MIN_WIDTH = 500
 
 
