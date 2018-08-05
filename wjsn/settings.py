@@ -67,7 +67,7 @@ DEFAULT_REQUEST_HEADERS = {
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     #'wjsn.pipelines.WjsnPipeline': 300,
-    'wjsn.mongoPipelines.mongoPipeline': 300,
+    'wjsn.mongoPipeline.mongoPipeline': 300,
 }
 
 IMAGES_STORE = "F:\img"

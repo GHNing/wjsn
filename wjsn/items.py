@@ -13,7 +13,8 @@ class WjsnItem(scrapy.Item):
     # name = scrapy.Field()
     imgurl = scrapy.Field()
     imgname = scrapy.Field()
+    #mongoWjsn
     parentUrl = scrapy.Field()
-
+    title = scrapy.Field()
 
     #http://m.api.xingyan.panda.tv/room/list?pagenum=2&xtype=1
